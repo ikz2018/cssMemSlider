@@ -1,1 +1,1 @@
-# cssMemSlider
+# Slider without Javascript
