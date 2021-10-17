@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+  padding: 50px;
+}
+
+.slider {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.slides {
+  width: calc(100% * 4);
+  height: 100%;
+  display: flex;
+  transition: all 0.5s;
+  margin-left: 0;
+}
+
+.slider-image {
+  width: calc(100% / 4);
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.r {
+  display: none;
+}
