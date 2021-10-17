@@ -117,3 +117,17 @@ body {
 #slide4:checked ~ .slide__content .text-slider .text-container  {
    margin-left: -300%;
 }
+
+@media (max-width: 590px) {
+  .slide__content {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 0;
+  }
+  .text-slider {
+    text-align: center;
+  }
+  .slide__pointers {
+    margin: 30px 0;
+  }
+}
